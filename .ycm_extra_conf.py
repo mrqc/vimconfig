@@ -40,14 +40,16 @@ flags = [
 # Most projects will NOT need to set this to anything; you can just change the
 # 'flags' list of compilation flags. Notice that YCM itself uses that approach.
 def findCompilationInFolder(folder):
-    if folder == "/":
-        return None
-    if os.path.exists(os.path.join(folder, "compile_commands.json"):
-        return folder
-    else:
-        findCompilationInFolder(os.path.dirname(folder))
+  if folder == "/":
+    return None
+  if os.path.exists(os.path.join(folder, "compile_commands.json")):
+    return folder
+  else:
+    return findCompilationInFolder(os.path.dirname(folder))
 
-compilation_database_folder = findCompilationInFolder(compilation_info.compiler_working_dir_)
+#compilation_database_folder = findCompilationInFolder("/Users/Erhard/badbit/")
+compilation_database_folder = findCompilationInFoldeer(os.path.dirname(ycm_core.Location().filename_))
+
 
 if compilation_database_folder:
   database = ycm_core.CompilationDatabase( compilation_database_folder )
