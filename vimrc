@@ -13,6 +13,7 @@ set autoread
 set ruler
 set number
 set viminfo='20,<1000,s1000
+set modeline
 autocmd GUIEnter * set visualbell t_vb=
 filetype plugin on
 filetype indent on
