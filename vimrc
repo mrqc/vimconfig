@@ -12,6 +12,7 @@ set noerrorbells visualbell t_vb=
 set autoread
 set ruler
 set number
+set viminfo='20,<1000,s1000
 autocmd GUIEnter * set visualbell t_vb=
 filetype plugin on
 filetype indent on
