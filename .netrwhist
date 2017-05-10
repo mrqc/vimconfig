@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/Erhard/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_2='/home/dinhob3/.vim/bundle'
+let g:netrw_dirhist_3='/home/dinhob3/.vim/bundle/nerdtree'
+let g:netrw_dirhist_4='/home/dinhob3/.vim/bundle'
+let g:netrw_dirhist_5='/home/dinhob3/badbit/python'
+let g:netrw_dirhist_6='/home/dinhob3/badbit/python/vc-harvest-client'
+let g:netrw_dirhist_7='/home/dinhob3/badbit/python'
+let g:netrw_dirhist_8='/home/dinhob3/badbit/python/slave-notecleanup'

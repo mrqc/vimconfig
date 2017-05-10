@@ -3,4 +3,4 @@
 	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
-	url = git@github.com:Valloric/YouCompleteMe.git
+	url = github.com:Valloric/YouCompleteMe.git
